@@ -57,7 +57,7 @@ const Navbar = () => {
 					</ul>
 					<div className="flex space-x-6 mt-6">
 						<div className="py-2 px-2 bg-red-800 rounded-full h-17 w-17 cursor-pointer">
-							<Moon className="rounded-full bg-darkred px-1 py-1 h-17 w-17"/>
+							<Moon onClick={toggleFuc} className="rounded-full bg-darkred px-1 py-1 h-17 w-17"/>
 						</div>
 						<a href="#" className="bg-red-800 py-3 px-3 rounded-md">
 							Get a project
